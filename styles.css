@@ -1,0 +1,72 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a white background for the whole page */
+body {
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark text for contrast */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #f8bbd0; /* Light pink background */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the navigation links */
+nav a {
+    color: #d81b60; /* Bold pink color for links */
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Style the main content area */
+main {
+    padding: 20px;
+}
+
+/* Style headings */
+h1 {
+    color: #d81b60; /* Bold pink color for headings */
+    font-size: 2em;
+}
+
+h2, h3 {
+    color: #ec407a; /* Slightly lighter pink for subheadings */
+}
+
+/* Style paragraphs */
+p {
+    margin-bottom: 1em;
+}
+
+/* Style buttons */
+button {
+    background-color: #f48fb1; /* Light pink background */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ec407a; /* Darker pink on hover */
+}
+
+/* Style the footer */
+footer {
+    background-color: #f8bbd0; /* Light pink background */
+    padding: 10px;
+    text-align: center;
+}
